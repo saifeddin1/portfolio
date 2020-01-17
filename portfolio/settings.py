@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = ')73b%^+e9b&q!(&gq_bs82#687xk@rc0u+fogd+lob+cqcgy9x'
-
+DATABASE_URL = {(default='postgres://hdsyitirqnmimx:70e690fd59fef8d024855e005ce8167ff5fb0d302e5c9a90b29e08d95f81edff@ec2-50-19-109-120.compute-1.amazonaws.com:5432/d8na8a8lmtkpso')}
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -73,7 +73,7 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -84,7 +84,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
+'''
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
