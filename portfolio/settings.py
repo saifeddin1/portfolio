@@ -25,7 +25,7 @@ SECRET_KEY = ')73b%^+e9b&q!(&gq_bs82#687xk@rc0u+fogd+lob+cqcgy9x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["http://saifeddin1.pythonanywhere.com/"]
 
 
 # Application definition
@@ -130,5 +130,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 
 
-MEDIA_ROOT = BASE_DIR
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
